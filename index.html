@@ -95,11 +95,6 @@
 
          // Withdrow button handler
 
-              // const currentWithdrow = document.getElementById("currentWithdrow").innerText;
-        // const currentWithdrowNumber = parseFloat(currentWithdrow);
-        // const TotalWithdrow = currentBalanceNumber - currentWithdrowNumber;
-        // document.getElementById("currentWithdrow").innerText = TotalBalance;
-
             const withdrowBtn = document.getElementById("addWithdrow");withdrowBtn.addEventListener("click",function(){
             const withdrowNumber = getInputNumber("withdrowAmount");
             updateSpanText("currentWithdrow",withdrowNumber);
